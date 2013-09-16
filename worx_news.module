@@ -1,0 +1,11 @@
+<?php
+
+include_once('worx_news.features.inc');
+
+function worx_news_theme_registry_alter(&$theme_registry) {
+  $theme_registry['node']['theme paths'][] = drupal_get_path('module', 'worx_news') ."/themes";
+}
+
+function worx_news_init() {
+  drupal_add_css(drupal_get_path('module', 'worx_news') .'/worx_news.css');
+}

@@ -1,0 +1,14 @@
+div.worx_news_photo {
+  float:left;
+  margin:5px;
+}
+
+div.views-row div.worx-node-news {
+  border-bottom:1px solid #ddd;
+  padding-bottom:10px;
+  margin-bottom:10px;
+}
+
+div.views-row-last div.worx-node-news {
+  border-bottom:none;
+}
